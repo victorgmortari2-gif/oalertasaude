@@ -7,7 +7,10 @@ export function Problem() {
     <section className="w-full bg-card py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center gap-4 text-center">
-          <Badge variant="destructive" className="text-lg">
+          <Badge
+            variant="destructive"
+            className="animate-pulse-size text-2xl"
+          >
             FATAL
           </Badge>
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
