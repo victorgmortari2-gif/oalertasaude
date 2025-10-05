@@ -9,7 +9,7 @@ export function Problem() {
         <div className="flex flex-col items-center gap-4 text-center">
           <Badge
             variant="destructive"
-            className="animate-pulse-size text-2xl"
+            className="animate-pulse-size text-4xl"
           >
             FATAL
           </Badge>
