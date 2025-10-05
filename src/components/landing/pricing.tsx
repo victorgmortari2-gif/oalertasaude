@@ -88,7 +88,7 @@ export function Pricing() {
             size="lg"
             className="mt-4 text-xl font-bold animate-pulse-size"
           >
-            <Link href="/dashboard">💰 QUERO PROTEGER MINHA SAÚDE AGORA! 💰</Link>
+            <Link href="https://go.tribopay.com.br/2qsfetfghm">💰 QUERO PROTEGER MINHA SAÚDE AGORA! 💰</Link>
           </Button>
         </div>
       </div>
