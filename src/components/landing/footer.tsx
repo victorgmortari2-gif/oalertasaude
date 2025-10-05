@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-card border-t py-6">
       <div className="container flex flex-col items-center justify-between gap-4 px-4 text-center md:flex-row md:px-6">
         <p className="text-sm text-muted-foreground">
-          © {year} SafeSips Guide. Todos os direitos reservados.
+          © {year} O Alerta da Saúde. Todos os direitos reservados.
         </p>
         <nav className="flex gap-4 sm:gap-6">
           <Link
