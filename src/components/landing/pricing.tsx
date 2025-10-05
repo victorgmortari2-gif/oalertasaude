@@ -8,7 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
-import { XCircle, CheckCircle2 } from 'lucide-react';
+import { XCircle } from 'lucide-react';
 
 export function Pricing() {
   return (
@@ -83,7 +83,11 @@ export function Pricing() {
               ACESSO VITALÍCIO | ACESSO IMEDIATO
             </p>
           </div>
-          <Button asChild size="lg" className="mt-4 text-xl font-bold">
+          <Button
+            asChild
+            size="lg"
+            className="mt-4 text-xl font-bold animate-pulse-size"
+          >
             <Link href="/dashboard">💰 QUERO PROTEGER MINHA SAÚDE AGORA! 💰</Link>
           </Button>
         </div>
