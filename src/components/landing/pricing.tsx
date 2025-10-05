@@ -42,7 +42,7 @@ export function Pricing() {
                 </TableCell>
                 <TableCell
                   rowSpan={3}
-                  className="font-bold text-primary flex items-center justify-center text-3xl align-middle"
+                  className="align-middle font-bold text-primary text-3xl"
                 >
                   R$ 17,90
                 </TableCell>
