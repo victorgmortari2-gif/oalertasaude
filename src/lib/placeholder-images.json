@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "report-video-1",
+      "description": "News report about methanol poisoning",
+      "imageUrl": "https://images.unsplash.com/photo-1650984661525-7e6b1b874e47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuZXdzJTIwdGVsZXZpc2lvbnxlbnwwfHx8fDE3NTk2ODM5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "news television"
+    },
+    {
+      "id": "report-video-2",
+      "description": "Expert interview about methanol dangers",
+      "imageUrl": "https://images.unsplash.com/photo-1695668543969-ea7dec95047c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxleHBlcnQlMjBpbnRlcnZpZXd8ZW58MHx8fHwxNzU5NjgzOTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "expert interview"
+    }
+  ]
 }
