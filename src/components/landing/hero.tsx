@@ -1,15 +1,8 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { PlayCircle } from 'lucide-react';
 
 export function Hero() {
-  const videoPlaceholder = PlaceHolderImages.find(
-    (img) => img.id === 'report-video-1'
-  );
-
   return (
     <section className="w-full bg-card py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -28,27 +21,18 @@ export function Hero() {
             ARRISCA SUA VISÃO E SUA VIDA!
           </h2>
 
-          {videoPlaceholder && (
-            <Card className="group relative mx-auto mt-8 w-full max-w-4xl overflow-hidden rounded-xl shadow-2xl">
-              <Image
-                src={videoPlaceholder.imageUrl}
-                alt={videoPlaceholder.description}
-                width={1280}
-                height={720}
-                className="aspect-video w-full object-cover"
-                data-ai-hint={videoPlaceholder.imageHint}
-              />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                <PlayCircle className="h-20 w-20 text-white/80 transition-transform group-hover:scale-110 group-hover:text-white" />
-              </div>
-              <div className="absolute bottom-4 left-4 text-white">
-                <p className="font-bold">
-                  A Reportagem Exclusiva que a Indústria Clandestina Não Quer
-                  que Você Assista.
-                </p>
-              </div>
-            </Card>
-          )}
+          <Card className="relative mx-auto mt-8 w-full max-w-4xl overflow-hidden rounded-xl shadow-2xl">
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/r1c6MlDGZGw"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </Card>
 
           <div className="flex flex-col gap-4 pt-6">
             <Button asChild size="lg" className="font-bold text-lg">
