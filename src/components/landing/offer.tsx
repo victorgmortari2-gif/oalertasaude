@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
 
 const includedItems = [
   {
@@ -65,10 +66,13 @@ export function Offer() {
             ))}
           </ul>
           <div className="flex items-center justify-center">
-            {/* You can add an image of the ebook/checklist here */}
-            <div className="flex h-96 w-full max-w-md items-center justify-center rounded-xl bg-card text-center text-muted-foreground shadow-lg">
-              [Imagem do E-book/Guia]
-            </div>
+            <Image
+              src="https://i.imgur.com/qKld1Gc.png"
+              alt="E-book cover"
+              width={400}
+              height={500}
+              className="rounded-xl shadow-lg"
+            />
           </div>
         </div>
       </div>
