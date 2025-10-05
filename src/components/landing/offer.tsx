@@ -67,7 +67,7 @@ export function Offer() {
           </ul>
           <div className="flex items-center justify-center">
             <Image
-              src="https://i.imgur.com/qKld1Gc.png"
+              src="https://i.imgur.com/gAKJZVr.png"
               alt="E-book cover"
               width={400}
               height={500}
