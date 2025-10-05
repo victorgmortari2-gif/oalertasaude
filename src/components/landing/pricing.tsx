@@ -40,7 +40,10 @@ export function Pricing() {
                   <XCircle className="h-5 w-5 text-red-500" />
                   Cegueira Permanente (Incalculável)
                 </TableCell>
-                <TableCell className="font-bold text-primary row-span-3 flex items-center justify-center text-3xl">
+                <TableCell
+                  rowSpan={3}
+                  className="font-bold text-primary flex items-center justify-center text-3xl align-middle"
+                >
                   R$ 17,90
                 </TableCell>
               </TableRow>
