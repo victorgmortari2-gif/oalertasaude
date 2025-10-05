@@ -71,27 +71,18 @@ export function Proof() {
             </Card>
           </div>
 
-          {videoPlaceholder && (
-            <Card className="group relative mx-auto mt-8 w-full max-w-4xl overflow-hidden rounded-xl shadow-2xl">
-              <Image
-                src={videoPlaceholder.imageUrl}
-                alt={videoPlaceholder.description}
-                width={1280}
-                height={720}
-                className="aspect-video w-full object-cover"
-                data-ai-hint={videoPlaceholder.imageHint}
-              />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                <PlayCircle className="h-20 w-20 text-white/80 transition-transform group-hover:scale-110 group-hover:text-white" />
-              </div>
-              <div className="absolute bottom-4 left-4 text-white">
-                <p className="font-bold">
-                  O Depoimento Chocante de Quem Sobreviveu (ou o Alerta Máximo
-                  dos Especialistas).
-                </p>
-              </div>
-            </Card>
-          )}
+          <Card className="relative mx-auto mt-8 w-full max-w-4xl overflow-hidden rounded-xl shadow-2xl">
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/6R03J4t2dSg"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </Card>
         </div>
       </div>
     </section>
