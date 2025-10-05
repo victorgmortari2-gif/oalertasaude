@@ -52,7 +52,7 @@ export function Hero() {
 
           <div className="flex flex-col gap-4 pt-6">
             <Button asChild size="lg" className="font-bold text-lg">
-              <Link href="/dashboard">
+              <Link href="#pricing">
                 🚀 CLIQUE E TENHA SUA DEFESA AGORA MESMO! 🚀
               </Link>
             </Button>
