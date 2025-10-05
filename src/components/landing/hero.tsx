@@ -16,7 +16,8 @@ export function Hero() {
         <div className="flex flex-col items-center space-y-6 text-center">
           <div className="space-y-4">
             <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-              🩸🚨 SEU COPO É SEU RISCO? 🚨🩸
+              🩸🚨 O Inimigo Invisível no Seu Copo: Metanol Cega e Mata, e Você
+              Nem Percebe.🚨🩸
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
               O ALERTA DE SAÚDE QUE A GRANDE MÍDIA NÃO TE EXPLICA POR COMPLETO.
