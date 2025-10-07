@@ -44,7 +44,7 @@ export function Pricing() {
                   rowSpan={3}
                   className="align-middle font-bold text-primary text-3xl"
                 >
-                  R$ 17,90
+                  R$ 7,90
                 </TableCell>
               </TableRow>
               <TableRow>
@@ -77,7 +77,7 @@ export function Pricing() {
               HOJE, em nossa Campanha de Alerta:
             </p>
             <p className="font-headline text-7xl font-extrabold text-primary">
-              R$ 17,90
+              R$ 7,90
             </p>
             <p className="text-sm font-bold">
               ACESSO VITALÍCIO | ACESSO IMEDIATO

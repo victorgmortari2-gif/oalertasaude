@@ -41,7 +41,7 @@ export function Hero() {
               </Link>
             </Button>
             <p className="text-sm text-muted-foreground">
-              (ACESSO IMEDIATO POR APENAS R$ 17,90)
+              (ACESSO IMEDIATO POR APENAS R$ 7,90)
             </p>
           </div>
         </div>
